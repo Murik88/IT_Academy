@@ -5,7 +5,6 @@ int main()
 	constexpr float INCH_TO_M = 0.254;
 	constexpr float POUNDS_TO_KG = 2.2;
 	int foot, inch, pounds;
-	double bmi;
 	std::cout << "Enter height (foot then inch): ";
 	std::cin >> foot >> inch;
 	std::cout << "Enter weight: ";
