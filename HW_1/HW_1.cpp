@@ -10,6 +10,6 @@ int main()
 	std::cin >> foot >> inch;
 	std::cout << "Enter weight: ";
 	std::cin >> pounds;
-	std::cout << "BMI = " << (pounds / POUNDS_TO_KG) / sqrt((foot * FOOT_TO_INCH + inch) * INCH_TO_M);
+	std::cout << "Body Mass Index = " << (pounds / POUNDS_TO_KG) / sqrt((foot * FOOT_TO_INCH + inch) * INCH_TO_M);
 	return 0;
 }
